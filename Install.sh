@@ -30,6 +30,7 @@ sudo wget https://herocraft7.no-ip.org/archive/MC_SERVER/spigot-1.11.2.jar
 sudo wget https://herocraft7.no-ip.org/archive/MC_SERVER/start.sh
 sudo wget https://herocraft7.no-ip.org/archive/MC_SERVER/eula.txt
 #sudo wget https://herocraft7.no-ip.org/owncloud/index.php/s/2COAPwxMKxu7N6V/download
+sudo cd SERVER
 sudo chmod ugo+wrx start.sh
 chmod 7777 start.sh
 ./start.sh
