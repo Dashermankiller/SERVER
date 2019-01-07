@@ -1,18 +1,3 @@
-#!/usr/bin/env bash
-# PiVPN: Trivial OpenVPN setup and configuration
-# Easiest setup and mangement of OpenVPN on Raspberry Pi
-# http://pivpn.io
-# Heavily adapted from the pi-hole.net project and...
-# https://github.com/StarshipEngineer/OpenVPN-Setup/
-#
-# Install with this command (from your Pi):
-#
-# curl -L https://install.pivpn.io | bash
-# Make sure you have `curl` installed
-
-
-######## VARIABLES #########
-
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo mkdir /java/
@@ -34,8 +19,5 @@ sudo cd SERVER
 sudo chmod ugo+wrx start.sh
 chmod 7777 start.sh
 ./start.sh
-
-
 displayFinalMessage
-
 echo "::: Install Complete..."
